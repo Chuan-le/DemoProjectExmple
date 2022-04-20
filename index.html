@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store-KyouLee</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./font/fontawesome-free-6.0.0-web/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" type="image/png" href="./image/product-9.png" />
+</head>
+
+<body>
+    <!-- header section starts-1 -->
+    <header class="header">
+        <a href="#" class="logo"> <i class="fa-solid fa-basket-shopping"></i>ChuanLe</a>
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#features">features</a>
+            <a href="#products">products</a>
+            <a href="#categories">categories</a>
+            <a href="#review">review</a>
+            <a href="#blogs">blogs</a>
+        </nav>
+        <!-- 1.1 -->
+        <div class="icons">
+            <div class="fa-solid fa-bars" id="menu-btn"></div>
+            <div class="fa-solid fa-magnifying-glass" id="search-btn"></div>
+            <div class="fa-solid fa-cart-plus" id="cart-btn"></div>
+            <div class="fa-solid fa-user" id="login-btn"></div>
+        </div>
+        <!-- 1.2 -->
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fa-solid fa-magnifying-glass"></label>
+        </form>
+        <!-- 1.3 -->
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fa-solid fa-trash"></i>
+                <img src="./image/cart-img-1.jpg" alt="" srcset="">
+                <div class="content">
+                    <h3>cart-1</h3>
+                    <span class="price">$4.99/-</span>
+                    <span class="quantity">qty: 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-trash"></i>
+                <img src="./image/cart-img-2.jpg" alt="" srcset="">
+                <div class="content">
+                    <h3>cart-2</h3>
+                    <span class="price">$4.99/-</span>
+                    <span class="quantity">qty: 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-trash"></i>
+                <img src="./image/cart-img-3.jpg" alt="" srcset="">
+                <div class="content">
+                    <h3>cart-3</h3>
+                    <span class="price">$4.99/-</span>
+                    <span class="quantity">qty: 1</span>
+                </div>
+            </div>
+            <div class="total">tolal: $19.69</div>
+            <a href="#" class="btn">checkout</a>
+        </div>
+        <!-- 1-4 -->
+        <form action="" class="login-form">
+            <h3>login now</h3>
+            <input type="email" placeholder="enter your email" class="box">
+            <input type="password" placeholder="enter your password" class="box">
+            <p>for get your password <a href="#">click here</a></p>
+            <p>don't have an account <a href="#">creat now</a></p>
+            <input type="submit" value="login now" class="btn">
+        </form>
+
+
+
+        <!-- ----------- -->
+    </header>
+    <!-- header section ends  -->
+    <!-- 1-5 Home section starts -->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>fresh and <span>organic</span>product for your</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus facere, error atque architecto, tenetur ipsa alias nihil quo sit, incidunt illo doloribus ducimus totam pariatur commodi consequuntur inventore similique quaerat!</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+    </section>
+
+    <!-- 1-5 Home section ends -->
+    <!-- 1-6 features section starts -->
+    <section class="features" id="features">
+        <h1 class="heading">our <span>features</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="./image/feature-1.jpg" alt="">
+                <h3>fresh and organic</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio deserunt voluptatem ducimus at, repudiandae nulla suscipit rerum saepe placeat, itaque in mollitia laborum maiores temporibus quas accusamus? Quibusdam, tempora maxime.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+            <div class="box">
+                <img src="./image/feature-2.jpg" alt="">
+                <h3>free delivery</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio deserunt voluptatem ducimus at, repudiandae nulla suscipit rerum saepe placeat, itaque in mollitia laborum maiores temporibus quas accusamus? Quibusdam, tempora maxime.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+            <div class="box">
+                <img src="./image/feature-3.jpg" alt="">
+                <h3>easy payment</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio deserunt voluptatem ducimus at, repudiandae nulla suscipit rerum saepe placeat, itaque in mollitia laborum maiores temporibus quas accusamus? Quibusdam, tempora maxime.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+    </section>
+    <!-- ---- features section ends -->
+    <!-- 1-7 products section starts  -->
+    <section class="products" id="products">
+        <h1 class="heading">our <span>products</span></h1>
+        <div class="swiper product-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="./image/product-1.png" alt="">
+                    <h3>fresh beef</h3>
+                    <div class="price">$4.99/- -$12.00/-</div>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="./image/product-2.png" alt="">
+                    <h3>Steak</h3>
+                    <div class="price">$4.99/- -$12.00/-</div>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="./image/product-3.png" alt="">
+                    <h3>Champagne</h3>
+                    <div class="price">$4.99/- -$12.00/-</div>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="./image/product-4.png" alt="">
+                    <h3>Coca cola</h3>
+                    <div class="price">$4.99/- -$12.00/-</div>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+        </div>
+        <div class="swiper product-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="./image/product-5.png" alt="">
+                    <h3>Dumplings</h3>
+                    <div class="price">$4.99/- -$12.00/-</div>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="./image/product-6.png" alt="">
+                    <h3>Hamburger </h3>
+                    <div class="price">$4.99/- -$12.00/-</div>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="./image/product-7.png" alt="">
+                    <h3>Macaron</h3>
+                    <div class="price">$4.99/- -$12.00/-</div>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="./image/product-8.png" alt="">
+                    <h3>Olive oil</h3>
+                    <div class="price">$4.99/- -$12.00/-</div>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--  products section ends  -->
+    <!-- categories section starts-1-8 -->
+    <section class="categories" id="categories">
+        <h1 class="heading">product <span>categories</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="./image/cat-1-1.png" alt="">
+                <h3>milk-coconut</h3>
+                <p>up to 54% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+            <div class="box">
+                <img src="./image/cat-2.png" alt="">
+                <h3>juice milk</h3>
+                <p>up to 54% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+            <div class="box">
+                <img src="./image/cat-3.jpg" alt="">
+                <h3>Champan</h3>
+                <p>up to 54% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+            <div class="box">
+                <img src="./image/cat-4.png" alt="">
+                <h3>Kebab</h3>
+                <p>up to 54% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+            <div class="box">
+                <img src="./image/cat-1-1.png" alt="">
+                <h3>milk-coconut</h3>
+                <p>up to 54% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+            <div class="box">
+                <img src="./image/cat-2.png" alt="">
+                <h3>juice milk</h3>
+                <p>up to 54% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+            <div class="box">
+                <img src="./image/cat-3.jpg" alt="">
+                <h3>Champan</h3>
+                <p>up to 54% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+            <div class="box">
+                <img src="./image/cat-4.png" alt="">
+                <h3>Kebab</h3>
+                <p>up to 54% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+            <div class="box">
+                <img src="./image/cat-3.jpg" alt="">
+                <h3>Champan</h3>
+                <p>up to 54% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- categories section ends -->
+    <!-- 1-9 review section starts -->
+    <section class="review" id="review">
+        <h1 class="heading">customer's <span>review</span></h1>
+        <div class="swiper review-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="./image/pic-1.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et itaque fuga assumenda alias dignissimos possimus sed nostrum cumque, harum quidem nulla ducimus dolor porro accusantium sit corrupti esse, temporibus atque?</p>
+                    <h3>ChuanLe</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="./image/pic-2.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et itaque fuga assumenda alias dignissimos possimus sed nostrum cumque, harum quidem nulla ducimus dolor porro accusantium sit corrupti esse, temporibus atque?</p>
+                    <h3>ChuanLe</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="./image/pic-3.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et itaque fuga assumenda alias dignissimos possimus sed nostrum cumque, harum quidem nulla ducimus dolor porro accusantium sit corrupti esse, temporibus atque?</p>
+                    <h3>ChuanLe</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="./image/pic-4.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et itaque fuga assumenda alias dignissimos possimus sed nostrum cumque, harum quidem nulla ducimus dolor porro accusantium sit corrupti esse, temporibus atque?</p>
+                    <h3>ChuanLe</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="./image/pic-1.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et itaque fuga assumenda alias dignissimos possimus sed nostrum cumque, harum quidem nulla ducimus dolor porro accusantium sit corrupti esse, temporibus atque?</p>
+                    <h3>ChuanLe</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="./image/pic-2.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et itaque fuga assumenda alias dignissimos possimus sed nostrum cumque, harum quidem nulla ducimus dolor porro accusantium sit corrupti esse, temporibus atque?</p>
+                    <h3>ChuanLe</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="./image/pic-3.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et itaque fuga assumenda alias dignissimos possimus sed nostrum cumque, harum quidem nulla ducimus dolor porro accusantium sit corrupti esse, temporibus atque?</p>
+                    <h3>ChuanLe</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="./image/pic-4.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et itaque fuga assumenda alias dignissimos possimus sed nostrum cumque, harum quidem nulla ducimus dolor porro accusantium sit corrupti esse, temporibus atque?</p>
+                    <h3>ChuanLe</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- review section end -->
+
+    <!-- 1-10 blogs section starts -->
+    <section class="blogs" id="blogs">
+        <h1 class="heading">our <span>blogs</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="./image/blog-1.jpg" alt="">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"><i class="fa-solid fa-user"></i>by Chuẩn đẹp trai</a>
+                        <a href="#"><i class="fa-solid fa-calendar"></i>monday, february 21, 2022</a>
+                    </div>
+                    <h3>fresh and organic vegitables and fruits</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas rerum modi consequuntur illo sunt aspernatur nesciunt, recusandae veniam! Fugit minus earum enim, ab commodi repudiandae quos. Sequi inventore quam nisi?</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./image/blog-2.jpg" alt="">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"><i class="fa-solid fa-user"></i>by Lê Chuẩn</a>
+                        <a href="#"><i class="fa-solid fa-calendar"></i>monday, february 21, 2022</a>
+                    </div>
+                    <h3>fresh and organic vegitables and fruits</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas rerum modi consequuntur illo sunt aspernatur nesciunt, recusandae veniam! Fugit minus earum enim, ab commodi repudiandae quos. Sequi inventore quam nisi?</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./image/blog-3.jpg" alt="">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"><i class="fa-solid fa-user"></i>by Chuẩn Lê</a>
+                        <a href="#"><i class="fa-solid fa-calendar"></i>monday, february 21, 2022</a>
+                    </div>
+                    <h3>fresh and organic vegitables and fruits</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas rerum modi consequuntur illo sunt aspernatur nesciunt, recusandae veniam! Fugit minus earum enim, ab commodi repudiandae quos. Sequi inventore quam nisi?</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- --blogs section ends -->
+    <!-- footer section starts -1-10- -->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>Chuan le <i class="fa-solid fa-basket-shopping"></i></h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni illo alias itaque, soluta nesciunt officia sed natus beatae aut culpa explicabo quae vero quaerat doloremque repudiandae cumque maiores voluptatum. Ut?</p>
+                <div class="share">
+                    <a href="#" class="fa-brands fa-facebook"></a>
+                    <a href="#" class="fa-brands fa-twitter"></a>
+                    <a href="#" class="fa-brands fa-instagram"></a>
+                    <a href="#" class="fa-brands fa-linkedin"></a>
+                </div>
+            </div>
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#" class="links"><i class="fa-solid fa-phone"></i>0383388235</a>
+                <a href="#" class="links"><i class="fa-solid fa-envelope"></i>chuanle2022@gmail.com</a>
+                <a href="#" class="links"><i class="fa-solid fa-location-pin"></i>Hue, Viet Nam</a>
+            </div>
+            <div class="box">
+                <h3>quick link</h3>
+                <a href="#" class="links"><i class="fa-solid fa-arrow-right"></i>home</a>
+                <a href="#" class="links"><i class="fa-solid fa-arrow-right"></i>Features</a>
+                <a href="#" class="links"><i class="fa-solid fa-arrow-right"></i>Products</a>
+                <a href="#" class="links"><i class="fa-solid fa-arrow-right"></i>Categories</a>
+                <a href="#" class="links"><i class="fa-solid fa-arrow-right"></i>Review</a>
+                <a href="#" class="links"><i class="fa-solid fa-arrow-right"></i>Blogs</a>
+            </div>
+            <div class="box">
+                <h3>new letter</h3>
+                <p>subscribe for lastest updates</p>
+                <input type="email" placeholder="your email" class="email">
+                <input type="submit" value="subscribe" class="btn">
+                <img src="./image/payment-1.jpg" class="payment-img" alt="">
+            </div>
+        </div>
+        <!-- 1-10-11 -->
+        <div class="credit">
+            created by <span>Chuanle</span>
+        </div>
+    </section>
+    <!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <!-- file link js -->
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
